@@ -46,7 +46,7 @@ modules:
         - package-lock.json
     parameters:
       buildpack: nodejs_buildpack
-      memory: 512M
+      memory: 256M
       disk-quota: 1024M
     requires:
       - name: cicdapp-uaa
